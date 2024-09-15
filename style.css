@@ -5,7 +5,7 @@ body {
 }
 
 
-ul{
+ul {
     text-align: left;
     color: red;
     font-size: x-large;
@@ -13,10 +13,18 @@ ul{
 
 .home-image {
     transform: rotate(32deg);
+    scale: 0.8;
 }
 
 
 a {
     color: inherit;
     text-decoration: none;
+}
+
+div {
+    font-size: xx-large;
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
 }
