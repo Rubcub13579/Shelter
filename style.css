@@ -10,3 +10,7 @@ ul{
     color: red;
     font-size: x-large;
 }
+
+.home-image {
+    transform: rotate(32deg);
+}
