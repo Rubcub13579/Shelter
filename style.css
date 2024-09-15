@@ -3,3 +3,10 @@ body {
     background-color: forestgreen;
     text-align: center;
 }
+
+
+ul{
+    text-align: left;
+    color: red;
+    font-size: x-large;
+}
