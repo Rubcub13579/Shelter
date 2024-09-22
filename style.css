@@ -11,20 +11,44 @@ ul {
     font-size: x-large;
 }
 
-.home-image {
-    transform: rotate(32deg);
-    scale: 0.8;
-}
-
 
 a {
     color: inherit;
     text-decoration: none;
 }
 
-div {
+footer {
     font-size: xx-large;
     display: flex;
     text-align: center;
     align-items: flex-end;
+}
+
+.imageBox {
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    background-image: url(assets/imagas/lemur.jpg);
+    translate: 400px 0px;
+}
+
+
+
+@keyframes turningIntoKing {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(1440deg);
+        background-image: url(assets/imagas/king.jpg);
+        background-repeat: no-repeat;
+
+    }
+}
+
+
+.imageBox:hover {
+    animation: turningIntoKing 2s forwards;
 }
